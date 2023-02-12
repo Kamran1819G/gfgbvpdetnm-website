@@ -1,0 +1,6 @@
+.slider-right > div,
+.slider-left > div {
+  border: 0px !important;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}

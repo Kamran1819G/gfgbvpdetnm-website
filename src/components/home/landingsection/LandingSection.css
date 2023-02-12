@@ -1,0 +1,93 @@
+.title {
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 65.41px;
+}
+.description {
+  font-family: "Syne";
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+.join-button {
+  color: #ffffff;
+  background-color: #4e36e8 !important;
+  padding: 8px 12px 8px 12px !important;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+  font-size: 15px;
+  border-radius: 22px !important;
+}
+
+.join-button:hover {
+  background-color: transparent !important;
+  border: 2px solid #4e36e8 !important;
+  color: #4e36e8 !important;
+}
+
+.col-3 .dashed-line-divider {
+  position: absolute;
+  margin-top: 50px;
+  left: 50px;
+}
+.col-2 .dashed-line-divider {
+  position: absolute;
+  margin-top: 50px;
+  right: 100px;
+}
+.col-2 .dashed-line-dividerr {
+  position: absolute;
+  margin-top: 50px;
+  left: 400px;
+}
+.col-2 .dashed-line-dividerrr {
+  position: absolute;
+  margin-top: 50px;
+  right: 450px;
+}
+.profile-info {
+  position: relative;
+}
+.profile-info .profile-image-blue {
+  border: 2px solid #8000ff;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile-info .profile-image-orange {
+  border: 2px solid #ff8000;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.profile-info span {
+  padding: 0px 10px;
+  color: #ffffff;
+  font-family: "Syne";
+  border-radius: 2px dashed #8000ff;
+  font-size: 18px;
+  line-height: 21px;
+  vertical-align: Top;
+  letter-spacing: 1px;
+}
+.profile-info .bottom-0 {
+  position: absolute;
+  left: 50px;
+  border: 2px dashed #8000ff;
+}
+.profile-info .top-0 {
+  position: absolute;
+  border: 2px dashed #8000ff;
+}
+.profile-info img {
+  overflow: hidden;
+}
