@@ -11,12 +11,12 @@ import smPurpleLine from "./images/sm-purple-line.png";
 const LandingSection = (props) => {
   return (
     <>
-      <section className="section h-100vh" style={{ paddingTop: "60px" }}>
+      <section className="landing-section section h-100vh">
           <div className="container">
             <div className="gbc1"></div>
             <div className="row justify-content-between">
               <div className="col-3 ">
-                <div className="d-flex justify-content-start align-self-start ">
+                <div className="d-flex">
                   <img
                     className="dashed-line-divider"
                     src={purpleLine}
@@ -30,7 +30,7 @@ const LandingSection = (props) => {
               </div>
 
               <div className="col-2 ">
-                <div className="d-flex justify-content-start align-self-start  ">
+                <div className="d-flex">
                   <img
                     className="dashed-line-divider"
                     src={orangeLine}
@@ -63,7 +63,7 @@ const LandingSection = (props) => {
             </div>
             <div className="row justify-content-center gap-4">
               <div className="col-2 ">
-                <div className="d-flex justify-content-start align-self-start  ">
+                <div className="d-flex">
                   <img
                     className="dashed-line-dividerr"
                     src={blueLine}
@@ -81,7 +81,7 @@ const LandingSection = (props) => {
                 </NavLink>
               </div>
               <div className="col-2 ml-auto">
-                <div className="d-flex justify-content-start align-self-start  ">
+                <div className="d-flex">
                   <img
                     className="dashed-line-dividerrr"
                     src={smPurpleLine}

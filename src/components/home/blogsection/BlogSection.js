@@ -1,4 +1,5 @@
 import React from "react";
+import './BlogSection.css'
 import Post from "./Post";
 
 function BlogsSection() {

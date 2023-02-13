@@ -25,7 +25,7 @@ const UpcomingEvent = () => {
           </div>
         </div>
         <div className="container">
-          <div className="d-flex justify-content-between mx-auto">
+          <div className="d-flex justify-content-around mx-auto">
             <TimeStamp
               img={autorun}
               title="12 jan 2021"

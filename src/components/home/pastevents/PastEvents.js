@@ -34,7 +34,7 @@ const PastEvents = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
-          <div className="carousal">
+          <div className="past-event-carousal">
             {" "}
             <Carousel
               slides={slides}

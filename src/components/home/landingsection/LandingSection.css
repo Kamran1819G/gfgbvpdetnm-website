@@ -1,3 +1,6 @@
+.landing-section {
+  padding-top: 80px !important;
+}
 .title {
   font-family: "Syne";
   font-weight: 700;
@@ -90,4 +93,42 @@
 }
 .profile-info img {
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .landing-section {
+    padding-top: 100px !important;
+  }
+  .title {
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 50px;
+  }
+  .description {
+    font-family: "Syne";
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    line-height: 25px;
+  }
+  .join-button {
+    position: absolute;
+    left: calc(30%);
+    font-size: 12px;
+  }
+  .dashed-line-divider,
+  .dashed-line-dividerr,
+  .dashed-line-dividerrr {
+    display: none;
+  }
+  .profile-info span {
+    display: none;
+  }
+  .profile-image-blue {
+    display: none;
+  }
+  .profile-image-orange {
+    display: none;
+  }
 }

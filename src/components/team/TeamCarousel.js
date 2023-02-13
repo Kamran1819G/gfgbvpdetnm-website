@@ -7,7 +7,7 @@ import eventpic2 from "../../assets/Events/event_pic2.jpg";
 function TeamCarousel() {
   return (
     <>
-      <section className="section" style={{paddingTop: "0px"}}>
+      <section className="team-section section">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-sm-5 col-lg-9 w-100vw">

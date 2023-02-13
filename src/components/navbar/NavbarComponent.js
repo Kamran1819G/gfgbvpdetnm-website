@@ -31,7 +31,7 @@ function NavbarComponent() {
       <Navbar
         bg="light"
         variant="light"
-        sticky="top"
+        fixed="top"
         collapseOnSelect
         expand="lg"
         className="custom-navbar"

@@ -21,13 +21,12 @@
 
 .custom-card > img {
   margin: auto;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 20px;
 }
 .custom-card > .card-body > .card-title {
   color: #000000;
-  width: 230px;
   font-size: 22px;
 }
 .custom-card > .card-body > .card-text {
@@ -41,4 +40,31 @@
   width: 100%;
   background: var(--secondary-color);
   color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .custom-card {
+    margin: 0 auto;
+  }
+  .custom-card > img {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .custom-card > .card-body > .card-title {
+    text-align: center;
+    font-size: 22px;
+  }
+  .custom-card > .card-body > .card-text {
+    color: #000000;
+    font-size: 18px;
+  }
+  .custom-card > .card-body > .connect-button {
+    height: 47px;
+    max-width: 240px;
+    width: 100%;
+    background: var(--secondary-color);
+    color: var(--accent-color);
+  }
 }

@@ -20,3 +20,13 @@
   font-size: 16px !important;
   font-weight: 400;
 }
+@media (max-width: 768px) {
+  .creator-card {
+    margin: 0 auto;
+  }
+  .creator-card > .card-body {
+    height: 100px;
+    width: 100%;
+    border-radius: 15px;
+  }
+}
