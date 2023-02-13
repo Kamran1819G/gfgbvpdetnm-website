@@ -4,7 +4,7 @@ import Post from "./Post";
 
 function BlogsSection() {
   return (
-      <section className="section h-100vh" id="blogs">
+      <section className="blog-section section h-100vh" id="blogs">
         <div className="container">
           <div className="row">
             <div className="text-center">
