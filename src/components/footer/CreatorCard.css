@@ -24,8 +24,11 @@
   .creator-card {
     margin: 0 auto;
   }
+  .creator-card > img {
+    height: 25vh;
+  }
   .creator-card > .card-body {
-    height: 100px;
+    height: 80px;
     width: 100%;
     border-radius: 15px;
   }

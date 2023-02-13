@@ -1,5 +1,5 @@
 .landing-section {
-  padding-top: 80px !important;
+  margin: 10px 0px;
 }
 .title {
   font-family: "Syne";
@@ -97,7 +97,7 @@
 
 @media (max-width: 768px) {
   .landing-section {
-    padding-top: 100px !important;
+    margin: 20px 0px !important;
   }
   .title {
     font-family: "Syne";
@@ -114,8 +114,8 @@
   }
   .join-button {
     position: absolute;
-    left: calc(30%);
-    font-size: 12px;
+    left: calc(23%);
+    font-size: 18px;
   }
   .dashed-line-divider,
   .dashed-line-dividerr,

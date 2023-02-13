@@ -20,7 +20,7 @@ const PastEvents = () => {
   };
 
   return (
-    <section className="section h-100vh" id="pastevent">
+    <section className="past-event-section section h-100vh" id="pastevent">
       <div className="container">
         <div className="gbc2"></div>
         <div className="row">

@@ -28,10 +28,6 @@
   width: 200px;
   margin: auto;
 }
-.footer-carousel .carousel-inner {
-  position: absolute;
-  top: -40px;
-}
 .footer-carousel .carousel-control-next,
 .footer-carousel .carousel-control-prev {
   position: absolute;
@@ -72,10 +68,6 @@
   .footer-carousel {
     width: 250px;
     margin: auto;
-  }
-  .footer-carousel .carousel-inner {
-    position: relative;
-    top: -30px;
   }
   .footer-carousel .carousel-control-next,
   .footer-carousel .carousel-control-prev {

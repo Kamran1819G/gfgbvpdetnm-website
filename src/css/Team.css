@@ -1,6 +1,5 @@
-.carousel-item {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.team-section {
+  margin: 50px 0;
 }
 .carousel-item > img {
   height: 500px !important;
@@ -21,6 +20,9 @@
   border-radius: 20px;
 }
 @media (max-width: 768px) {
+  .team-section {
+    margin: 20px 0 !important;
+  }
   .carousel-item > img {
     height: 100% !important;
     width: 100% !important;
