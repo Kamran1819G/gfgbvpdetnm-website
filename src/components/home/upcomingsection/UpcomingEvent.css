@@ -1,8 +1,0 @@
-.upcomming-event-section {
-  margin: 50px 0px;
-}
-@media (max-width: 768px) {
-  .upcomming-event-section {
-    margin: 20px 0px !important;
-  }
-}
