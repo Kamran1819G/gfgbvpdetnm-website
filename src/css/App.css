@@ -6,6 +6,7 @@
   --accent-color: #f3f3f3;
   --accent-color-2: #d1d1d1;
 }
+
 html,
 body {
   overflow-x: hidden;
@@ -17,25 +18,34 @@ body {
   font-family: "Montserrat" !important;
   color: var(--accent-color) !important;
 }
+
+h-100vh {
+  height: 100vh;
+}
+
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
   position: relative;
 }
+
 .section-title {
   font-family: "Syne";
   font-size: 48px;
   font-weight: 600;
 }
+
 .section-subtitle {
   font-family: "Syne";
   font-size: 20px;
   font-weight: 400;
 }
+
 @media (max-width: 768px) {
   .section-title {
     font-size: 32px;
   }
+
   .section-subtitle {
     font-size: 16px;
   }
